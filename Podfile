@@ -1,0 +1,37 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'WeatherApp' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for WeatherApp
+  pod 'Alamofire', '~> 4.7'
+  pod 'AlamofireImage', '~> 3.4'
+  pod 'SwiftLocation', '~> 3.2.3'
+  pod 'GoogleMaps'
+  pod 'GooglePlaces'
+  
+end
+
+target 'WeatherAppTests' do
+    inherit! :search_paths
+    # Pods for testing
+    pod 'Alamofire', '~> 4.7'
+    pod 'AlamofireImage', '~> 3.4'
+    pod 'SwiftLocation', '~> 3.2.3'
+    pod 'GoogleMaps'
+    pod 'GooglePlaces'
+  end
+
+
+target 'WeatherAppUITests' do
+    inherit! :search_paths
+    # Pods for testing
+    pod 'Alamofire', '~> 4.7'
+    pod 'AlamofireImage', '~> 3.4'
+    pod 'SwiftLocation', '~> 3.2.3'
+    pod 'GoogleMaps'
+    pod 'GooglePlaces'
+  end
+
